@@ -15,6 +15,7 @@ public class ControlSomething {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://demowebshop.tricentis.com/");
+		driver.getTitle();
 		driver.close();
 		
 	}
